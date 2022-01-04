@@ -1,0 +1,84 @@
+.header {
+    @extend %section;
+    background-color: $primary-accent-color;
+    // padding-top: 80px;
+    // padding-bottom: 80px;
+}
+.container {
+    @extend %container;
+}
+.header-wrap {
+   display: flex;
+   align-items: center;
+   padding-right: 80px;
+   padding-left: 60px;
+
+}
+.cv-img {
+    @extend %img;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+.info {
+    margin-left: auto;
+}
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-bottom: 30px;
+    color: $address-color;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 1.17;
+    font-weight: 500;
+    color: $primary-white-color;
+    margin-bottom: 30px;
+}
+
+.address {
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.address-list {
+    @extend %list;
+}
+
+.address-item {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    
+}
+.address-link {
+    @extend %link;
+    @include transition(color);
+    color: $address-color;
+    font-size: 18px;
+    line-height: 1.17;
+
+    &:hover, &:focus {
+        color: $primary-white-color;
+    }
+}
+
+.contacts-icon {
+    @include centeredFlex(inline-flex);
+    @include transition(fill);
+
+    fill: $address-color;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+
+    .address-link:hover &,
+    .address-link:focus & {
+        fill: $primary-white-color;
+    }
+}
+
