@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.17;
   font-weight: 500;
   color: #AFB1B8;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .experience-title::before {
@@ -395,6 +395,10 @@ h1, h2, h3, h4, h5, h6, p {
 .experience-sublist {
   padding-left: 60px;
   list-style: square;
+}
+
+.goit-sublist {
+  margin-top: 10px;
 }
 
 .experience-subitem {

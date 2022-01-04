@@ -343,6 +343,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 20px;
 }
 
+.goit-wrap {
+  margin-bottom: 10px;
+}
+
 .education-period {
   margin-right: 10px;
 }
@@ -391,6 +395,10 @@ h1, h2, h3, h4, h5, h6, p {
 .experience-sublist {
   padding-left: 60px;
   list-style: square;
+}
+
+.goit-sublist {
+  margin-top: 10px;
 }
 
 .experience-subitem {

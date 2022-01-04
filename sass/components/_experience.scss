@@ -53,9 +53,9 @@
     padding-left: 20px;
 }
 
-.experience-sublist.goit-sublist {
+.goit-wrap {
 
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .education-period {
@@ -109,6 +109,9 @@
     list-style: square;
 }
 
+.goit-sublist {
+    margin-top: 10px;
+}
 .experience-subitem {
     font-size: 15px;
     line-height: 1.12;
