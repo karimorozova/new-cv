@@ -320,10 +320,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 50px;
 }
 
-.education-list {
-  padding-left: 20px;
-}
-
 .education-item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -333,6 +329,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
+  padding-left: 20px;
   color: #003c5f;
 }
 
@@ -340,7 +337,6 @@ h1, h2, h3, h4, h5, h6, p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 20px;
 }
 
 .goit-wrap {
