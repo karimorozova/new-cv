@@ -33,7 +33,6 @@
 
 .education-list {
     @extend %list;
-    // padding-left: 20px;
 }
 
 .education-item:not(:last-child) {
@@ -51,16 +50,17 @@
 
 .education-wrap, .experience-wrap {
     display: flex;
-    // padding-left: 20px;
+    padding-left: 20px;
 }
 
 .goit-wrap {
-
     margin-bottom: 10px;
+   
 }
 
 .education-period {
     margin-right: 10px;
+    // padding-left: 20px;
 }
 
 .education-period, 
